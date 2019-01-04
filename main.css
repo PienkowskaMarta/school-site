@@ -675,6 +675,7 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
+    height: 40rem;
 
 }
 
@@ -1018,6 +1019,7 @@ body {
     background-size: cover;
     background-attachment: revert;
 }
+
 
 .newsletter .form {
     border-radius: 20px;
