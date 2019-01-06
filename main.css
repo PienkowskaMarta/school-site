@@ -54,7 +54,8 @@ body {
 }
 
 .navbar-large a, .navbar-small a {
-    color: #969696;
+    /* color: #969696; */
+    color: black;
     text-decoration: none;
     /* font-family: 'Amaranth', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
@@ -63,7 +64,8 @@ body {
 }
 
 .navbar-large span, .navbar-small span {
-    color: #969696;
+    /* color: #969696; */
+    color: black
 }
 
 .navbar-large li:active, .navbar-large li:hover {
@@ -416,7 +418,7 @@ body {
 }
 
 .carosuel-item-2 {
-    background-image: url("img/arawpixel-463437-unsplash.jpg");
+    background-image: url("img/thomas-kolnowski-780791-unsplash.jpg");
 }
 
 .carosuel-item-3 {
