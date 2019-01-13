@@ -1,12 +1,18 @@
-.logo2 {
-    margin left:auto;
-}
 body {
     margin: 0;
     padding: 0;
     font-size: 16px;
     /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
+}
+.header {
+    width: 100%;
+    padding: 5px 0;
+}
+.logo {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* HEADING */
@@ -15,13 +21,13 @@ body {
     z-index: 1;
     position: relative;
     text-align: center;
-    margin-bottom: 50px;
-    padding-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .heading h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 10;
     margin: 0 0 20px;
     color: #444;
 }
@@ -101,7 +107,7 @@ body {
 
 .navbar-large {
     /* height: 80px; */
-    height: 160px;
+    height: 80px;
     background-color: white;
     display: flex;
 }
