@@ -1,3 +1,6 @@
+.logo2 {
+    margin left:auto;
+}
 body {
     margin: 0;
     padding: 0;
@@ -23,9 +26,10 @@ body {
     color: #444;
 }
 
+
 /* NAVIGATION MENU */
 
-.navbar-container ul {
+/* .navbar-container ul {
     float: right;
 }
 
@@ -96,7 +100,8 @@ body {
 }
 
 .navbar-large {
-    height: 80px;
+    /* height: 80px; */
+    height: 160px;
     background-color: white;
     display: flex;
 }
@@ -151,7 +156,7 @@ body {
     -moz-transition: .7s all;
     -webkit-transition: .7s all;
     -o-transition: .7s all;
-}
+} 
 
 /*toggle hamburger*/
 
