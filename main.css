@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    /* font-family: 'PT Sans', sans-serif; */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* HEADING */
@@ -54,18 +53,15 @@ body {
 }
 
 .navbar-large a, .navbar-small a {
-    /* color: #969696; */
-    color: black;
+    color: #969696;
     text-decoration: none;
-    /* font-family: 'Amaranth', sans-serif; */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Amaranth', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
 .navbar-large span, .navbar-small span {
-    /* color: #969696; */
-    color: black
+    color: #969696;
 }
 
 .navbar-large li:active, .navbar-large li:hover {
@@ -414,15 +410,15 @@ body {
 /* HEADER */
 
 .carosuel-item-1 {
-    background-image: url("img/akelli-tungay-324329-unsplash.jpg");
+    background-image: url("img/akelli-tungay-309722-unsplash.jpg");
 }
 
 .carosuel-item-2 {
-    background-image: url("img/thomas-kolnowski-780791-unsplash.jpg");
+    background-image: url("img/akelli-tungay-324329-unsplash.jpg");
 }
 
 .carosuel-item-3 {
-    background-image: url("img/akelli-tungay-309722-unsplash.jpg");
+    background-image: url("img/ajo-szczepanska-57782-unsplash.jpg");
 }
 
 .carousel-item {
@@ -444,8 +440,7 @@ body {
 .carousel-caption h1 {
     text-transform: uppercase;
     margin-bottom: 1.6875rem;
-    /* font-size: 4rem; */
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 600;
     color: #76c143;
 }
@@ -644,8 +639,7 @@ body {
     }
 
     .carousel-caption h1 {
-        /* font-size: 4.5rem; */
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
 
     .carousel-caption p {
@@ -660,13 +654,10 @@ body {
 @media (min-width: 1441px) {
     .carousel-caption {
         /*bottom: 250px;*/
-
     }
 
     .carousel-caption h1 {
-        /* font-size: 6rem; */
-        font-size: 4rem;
-        /* padding-bottom: 0.6rem; */
+        font-size: 6rem;
         padding-bottom: 0.6rem;
     }
 
@@ -684,7 +675,6 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
-    height: 40rem;
 
 }
 
@@ -1022,13 +1012,12 @@ body {
 
 .newsletter {
     height: auto;
-    background-image: url("img/ajo-szczepanska-57782-unsplash.jpg");
+    background-image: url("img/1234.jpg");
     padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: revert;
 }
-
 
 .newsletter .form {
     border-radius: 20px;
@@ -1038,7 +1027,7 @@ body {
     background: RGBA(255, 255, 255, 0.8);
 }
 
-/* .form-check {
+.form-check {
     padding: 10px 10px 10px 20px;
 }
 
@@ -1055,9 +1044,9 @@ body {
 .form-buttons {
     display: flex;
     justify-content: center;
-} */
+}
 
-/* .btn-form {
+.btn-form {
     margin: 10px;
     width: 100px;
     background-color: #C6596E;
@@ -1079,7 +1068,7 @@ body {
     background-color: #853D49;
     color: white;
     transition: 0.3s;
-} */
+}
 
 @media (max-width: 575px) {
     .newsletter .form {
@@ -1115,7 +1104,7 @@ body {
     transform: scale(2.5);
     bottom: 40px;
     right: 45px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 @media screen and (max-width: 425px) {
