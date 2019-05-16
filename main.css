@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("img/joanna-kosinska-129039-unsplash.jpg");
 }
 
 /* HEADING */
@@ -46,7 +47,7 @@ body {
 }
 
 #navbar {
-    box-shadow: 0 -2px 12px 1px hsla(0, 0%, 80%, .8);
+    /* box-shadow: 0 -2px 12px 1px hsla(0, 0%, 80%, .8); */
 }
 
 .navbar-large, .navbar-small {
@@ -100,7 +101,8 @@ body {
 
 .navbar-large {
     height: 80px;
-    background-color: white;
+    /* background-color: white; */
+    background: RGBA(255, 255, 255, 0);
     display: flex;
 }
 
@@ -682,6 +684,21 @@ body {
     }
 }
 
+/* MOVING LETTERS */
+
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
 /* Lukasz 4 Boxes Icons*/
 .functionality {
     margin-bottom: 3rem;
@@ -1021,11 +1038,16 @@ body {
     transform: translate3d(0px, 0px, 0px);
 }
 
+/* CARD-BODY */
+.jumbotron {
+    background: RGBA(255, 255, 255, 0);
+}
+
 /*NEWSLETTER */
 
 .newsletter {
     height: auto;
-    background-image: url("img/ajo-szczepanska-57782-unsplash.jpg");
+    /* background-image: url("img/ajo-szczepanska-57782-unsplash.jpg"); */
     padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
