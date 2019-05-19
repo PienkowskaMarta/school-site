@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("img/joanna-kosinska-129039-unsplash.jpg");
+    background-image: url("img/joanna-kosinska-439234-unsplash.jpg");
 }
 
 /* HEADING */
@@ -125,7 +125,7 @@ body {
 
 /* navbar small */
 
-.navbar-small {
+/* .navbar-small {
     height: 50px;
     background-color: white;
 }
@@ -156,7 +156,7 @@ body {
     -moz-transition: .7s all;
     -webkit-transition: .7s all;
     -o-transition: .7s all;
-}
+} */
 
 /*toggle hamburger*/
 
@@ -698,6 +698,17 @@ body {
     line-height: 1em;
   }
 
+/* test animation on scroll */
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
 
 /* Lukasz 4 Boxes Icons*/
 .functionality {
@@ -1041,7 +1052,24 @@ body {
 /* CARD-BODY */
 .jumbotron {
     background: RGBA(255, 255, 255, 0);
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
+
+/* ZAJECIA */
+
+.card-columns{
+    margin-top: 3rem;
+    margin-bottom: 12rem; 
+}
+
+/* NAUCZYCIELE */
+
+.card-deck {
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+}
+
 
 /*NEWSLETTER */
 
@@ -1052,6 +1080,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: revert;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
 
 

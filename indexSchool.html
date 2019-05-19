@@ -2,9 +2,9 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>C-bula</title>
+    <title>Szkoła w Alesund</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
-    <link rel="shortcut icon" href="img/cbula-favicon-01.png">
+    <link rel="shortcut icon" href="img/logo szkoły.JPG">
     <meta name="description" content="Strona polskiego przedszkola w Alesund">
     <meta name="author" content=" Marta Pieńkowska">
     <meta name="keywords" content="polska szkoła, Alesund">
@@ -13,11 +13,14 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="main.css" type="text/css">
     <link rel="stylesheet" href="game/game-main.css" type="text/css">
+    <!-- potrzebne do animation on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans|Press+Start+2P" rel="stylesheet"> -->>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -68,7 +71,7 @@
 </nav>
 <!-- MARTA -->
 <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
+        <h1 class="display-4">Witamy w naszej szkole!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -77,12 +80,12 @@
         </p>
       </div>
 <!-- MARTA 2 -->
-<div class="jumbotron jumbotron-fluid">
+<!-- <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Fluid jumbotron</h1>
           <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
-      </div>
+      </div> -->
      <!-- CAROUSEL  -->
 <!-- <section class="intro">
     <div id="intro-slider" class="carousel slide intro-slider" data-ride="carousel">
@@ -299,7 +302,7 @@
         <div class="heading" id="boxes">
                 <h2><span class="ml12" lang="pl">oferta zajęć</span> <span lang="en">SCHOOL COUNSELLORS</span>
             </div>
-        <div class="card-columns">
+        <div class="card-columns" class="item" data-aos="fade-right">
             <div class="card text-center">
               <!-- <img class="card-img-top" src="img/akimberly-farmer-287677-unsplash.jpg" alt="Card image cap"> -->
               <div class="card-body">
@@ -389,7 +392,7 @@
 <div class="heading" id="newsletter2">
         <h2><span class="ml12" lang="pl">NAUCZYCIELE</span> <span lang="en"><strong>C-Bula</strong> team</span>
     </div>
-<div class="card-deck">
+<div class="card-deck" class="item" data-aos="fade-up">
         <div class="card">
           <!-- <img class="card-img-top" src="img/akelli-tungay-309722-unsplash.jpg" alt="Card image cap"> -->
           <div class="card-body">
@@ -422,7 +425,7 @@
 <div class="heading" id="about-us">
         <h2><span class="ml12" lang="pl">DORADCY METODYCZNI</span> <span lang="en">SCHOOL COUNSELLORS</span>
     </div>
-<div class="card-columns">
+<div class="card-columns" class="item" data-aos="fade-right">
     <div class="card text-center">
       <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
       <div class="card-body">
@@ -622,7 +625,7 @@
 
 <!--TEACHERS' SPECIALIZATIONS-->
 <section class="newsletter sections" id="specializations">
-        <form class="form heading newsletter-form">
+        <form class="form heading newsletter-form" class="item" data-aos="fade-up">
             <h2><span lang="pl">Specjalizacje naszych nauczycieli:</span></h2>
                     <div><p><br>filologia polska
                             <br>pedagogika
@@ -731,13 +734,14 @@
 <script src="./js/anime.min.js"></script>
 <script src="./js/smooth-scroll.js"></script>
 <script src="./js/animation_about-us.js"></script>
-<script src="./js/resize.js"></script>
+<script src="./js/resize.js"></script> 
 <script src="./js/game-start.js"></script>
 <script src="./js/scrollRevealBox.js"></script>
 <script src="./js/cookies.js"></script>
 <script src="./js/back-to-top.js"></script>
 <script src="./js/menuhover.js"></script>
 <script src="./js/translation.js"></script>
+<script src="./js/on_scroll.js"></script>
 
 </body>
 
