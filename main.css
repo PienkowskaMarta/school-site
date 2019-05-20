@@ -1065,10 +1065,10 @@ body {
 
 /* NAUCZYCIELE */
 
-/* .card-deck {
-    margin-top: 6rem;
-    margin-bottom: 12rem;
-} */
+.card-deck {
+    width: 800px;
+    margin: auto;
+}
 
 .card {
     /* margin: 100px;
