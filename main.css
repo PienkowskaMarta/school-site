@@ -1064,17 +1064,17 @@ body {
 } */
 
 /* NAUCZYCIELE */
-/* 
-.card-deck {
+
+/* .card-deck {
     margin-top: 6rem;
     margin-bottom: 12rem;
-}
+} */
 
 .card {
-    margin: 100px;
-    padding: 50px;
-   
-} */
+    /* margin: 100px;
+    padding: 50px; */
+    background: RGBA(255, 255, 255, 0.8);
+}
 
 .card-columns {
     width: 800px;
