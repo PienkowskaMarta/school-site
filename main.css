@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("img/joanna-kosinska-439234-unsplash.jpg");
+    background-image: url("img/plush-design-studio-704231-unsplash.jpg");
 }
 
 /* HEADING */
@@ -700,7 +700,7 @@ body {
 
 /* test animation on scroll */
 .item {
-    width: 200px;
+    /* width: 200px; */
     height: 200px;
     margin: 50px auto;
     padding-top: 75px;
@@ -1049,7 +1049,7 @@ body {
     transform: translate3d(0px, 0px, 0px);
 }
 
-/* CARD-BODY */
+/* JUMBOTRON */
 .jumbotron {
     background: RGBA(255, 255, 255, 0);
     margin-top: 12rem;
@@ -1058,19 +1058,35 @@ body {
 
 /* ZAJECIA */
 
-.card-columns{
+/* .card-columns{
     margin-top: 3rem;
     margin-bottom: 12rem; 
-}
+} */
 
 /* NAUCZYCIELE */
-
+/* 
 .card-deck {
     margin-top: 6rem;
     margin-bottom: 12rem;
 }
 
+.card {
+    margin: 100px;
+    padding: 50px;
+   
+} */
 
+.card-columns {
+    width: 800px;
+    margin: auto;
+}
+.row {
+    /* margin: 150px; */
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
 /*NEWSLETTER */
 
 .newsletter {
