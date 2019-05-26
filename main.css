@@ -711,7 +711,7 @@ body {
   }
 
 /* Lukasz 4 Boxes Icons*/
-.functionality {
+/* .functionality {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
@@ -747,11 +747,11 @@ body {
 
 .load-hidden {
     visibility: hidden;
-}
+} */
 
 /* DETAILS - 8 funkcjonalnocsi */
 
-.details {
+/* .details {
     background: #f2f4f8;
 }
 
@@ -834,9 +834,9 @@ body {
 
 .item:hover .you-get-icon, .item:hover .sub-title {
     opacity: 0;
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .details-func {
         height: 272px;
     }
@@ -911,7 +911,7 @@ body {
     .details .details-func-before:before {
         opacity: 0;
     }
-}
+} */
 
 /* Lukasz ABOUT-US*/
 
@@ -1210,64 +1210,13 @@ body {
 
 /*FOOTER*/
 
-.footer__container {
-    line-height: 0.5
-}
-
-.footer-style {
-    background-color: #B3BBBC;
-}
-
-.footer-facebook {
-    margin-right: 4px;
-}
-
-.footer-twitter {
-    margin-right: 2px;
-}
-
-.footer__content {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.footer-shops {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.footer-useful-links {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.footer-contact {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.footer-copyright {
-    text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-.page__footer a {
-    color: #444;
-    transition: 0.3s;
-    text-decoration: none;
-
-}
-
+/* 
 @media (max-width: 575px) {
     .footer__container {
         text-align: center;
         width: 100%;
     }
-}
+} */
 
 /* ciasteczka */
 .cookie {
