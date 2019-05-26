@@ -24,9 +24,9 @@ body {
     margin: 0 0 20px;
     color: #444;
 }
-.heading p {
+/* .heading p {
     text-transform: uppercase;
-}
+} */
 /* NAVIGATION MENU */
 
 .navbar-container ul {
@@ -1064,29 +1064,38 @@ body {
 } */
 
 /* NAUCZYCIELE */
+/* CARD DECK ZMIENIC W MEDIA QUERIES NA MOBILE */
 
-.card-deck {
+ /* .card-deck {
     width: 800px;
     margin: auto;
-}
+}  */
 
 .card {
-    /* margin: 100px;
-    padding: 50px; */
-    background: RGBA(255, 255, 255, 0.8);
+    margin:20px;
+    padding: 10px; 
+    background: RGBA(255, 255, 255, 0);
+    border:none;
 }
+
+/* card-columns rozwala mobile lub desktop w kolażu */
 
 .card-columns {
     width: 800px;
     margin: auto;
 }
-.row {
-    /* margin: 150px; */
+.marta {
     margin-top: 250px;
     margin-bottom: 250px;
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 40;
+    margin-right: 40;
+} 
+@media (max-width: 575px) {
+    .card-columns{
+        width:100%;
+    }
 }
+
 /*NEWSLETTER */
 
 .newsletter {
@@ -1106,7 +1115,7 @@ body {
     padding: 3rem;
     width: 60%;
     margin: 0 auto;
-    background: RGBA(255, 255, 255, 0.8);
+    background: RGBA(255, 255, 255, 0d);
 }
 
 /* .form-check {
@@ -1157,7 +1166,7 @@ body {
         padding: 2rem;
         width: 100%;
         margin: 0 auto;
-        background: RGBA(255, 255, 255, 0.8);
+        background: RGBA(255, 255, 255, 0);
         border-radius: 0px;
     }
 
@@ -1171,7 +1180,7 @@ body {
         padding: 2rem;
         width: 80%;
         margin: 0 auto;
-        background: RGBA(255, 255, 255, 0.8);
+        background: RGBA(255, 255, 255, 0);
         border-radius: 20px;
     }
 
