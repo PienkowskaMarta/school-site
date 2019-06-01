@@ -916,9 +916,8 @@ body {
 
 /*FOOTER*/
 
-.page-footer {
-    margin-top: 100px;
-    background-color: white;
+.footer {
+    text-align: center;
 }
 /* 
 @media (max-width: 575px) {
