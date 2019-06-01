@@ -6,7 +6,34 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     background-image: url("img/plush-design-studio-704231-unsplash.jpg");
 }
+/* PARALLAX */
+.parallax { 
+    /* The image used */
+    background-image: url("img/neha-deshmukh-9593-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 { 
+    /* The image used */
+    background-image: url("img/keila-hotzel-227543-unsplash.jpg");
 
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 /* HEADING */
 
 .heading {
@@ -450,7 +477,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 1.6875rem;
     /* font-size: 4rem; */
-    font-size: 2rem;
+    /* font-size: 2rem;
     font-weight: 600;
     color: #76c143;
 }
@@ -595,8 +622,8 @@ body {
 .intro-btn a:hover .line.-bottom,
 .intro-btn a:active .line.-bottom {
     transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
-    transform-origin: left; */
-}
+    transform-origin: left; 
+} */
 
 @media screen and (max-width: 375px) {
     .intro-btn {
@@ -688,7 +715,7 @@ body {
 
 .ml12 {
     font-weight: 200;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 0.5em;
   }
@@ -696,6 +723,12 @@ body {
   .ml12 .letter {
     display: inline-block;
     line-height: 1em;
+  }
+  @media (max-width: 575px){
+    .ml12 {
+        font-size: 1.2rem;
+    }
+      
   }
 
 /* test animation on scroll */
@@ -746,8 +779,8 @@ body {
     margin: auto;
 }
 .marta {
-    margin-top: 250px;
-    margin-bottom: 250px;
+    /* margin-top: 250px;
+    margin-bottom: 250px; */
     margin-left: 40;
     margin-right: 40;
 } 
