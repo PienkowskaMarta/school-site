@@ -189,7 +189,7 @@ body {
 }
 
 .navbar-hamburger a {
-    color: #ffffff;
+    color:black;
     display: block;
     text-transform: uppercase;
     text-decoration: none;
@@ -314,13 +314,14 @@ body {
     padding-bottom: 5px;
 }
 
-#li-hamburger-1 {
-    background-image: url("img/hamburger-button-1.jpg");
-    padding: 60px;
+#li-hamburger-1,#li-hamburger-2,#li-hamburger-3,#li-hamburger-4,#li-hamburger-5,#li-hamburger-6 {
+    /* background-image: url("img/hamburger-button-1.jpg"); */
+    background-color: white;
+    padding: 0px;
     background-size: 100%;
 }
 
-#li-hamburger-2 {
+/* #li-hamburger-2 {
     background-image: url("img/hamburger-button-2.jpg");
     padding: 60px;
     background-size: 100%;
@@ -336,21 +337,20 @@ body {
     background-image: url("img/hamburger-button-4.jpg");
     padding: 60px;
     background-size: 100%;
-}
+} */
 
-#li-hamburger-5 {
-    height: 80px;
-    width: 100%;
-    background: -moz-linear-gradient(top, rgba(46, 47, 49, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+/* #li-hamburger-5 { */
+    /* height: 80px;
+    width: 100%; */
+    /* background: -moz-linear-gradient(top, rgba(46, 47, 49, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(top, rgba(46, 47, 49, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to bottom, rgba(46, 47, 49, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(46, 47, 49, 0.65) 0%, rgba(0, 0, 0, 0) 100%); */
 }
 
 /*navigation media queries*/
 
 @media screen and (max-width: 425px) {
-
-    #li-hamburger-1, #li-hamburger-2, #li-hamburger-3, #li-hamburger-4 {
+    #li-hamburger-1, #li-hamburger-2, #li-hamburger-3, #li-hamburger-4,#li-hamburger-5, #li-hamburger-6 {
         padding: 50px;
         font-size: 1rem;
     }
