@@ -4,7 +4,8 @@ body {
     font-size: 16px;
     /* font-family: 'PT Sans', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url("img/plush-design-studio-704231-unsplash.jpg");
+    /* background-image: url("img/plush-design-studio-704231-unsplash.jpg"); */
+    background-color:white;
 }
 /* PARALLAX */
 
@@ -13,7 +14,7 @@ body {
     background-image: url("img/neha-deshmukh-9593-unsplash.jpg");
   
     /* Set a specific height */
-    height: 1000px; 
+    height: 500px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -39,7 +40,7 @@ body {
 
   @media (max-width: 575px) {
     .parallax {
-        height:1600px;
+        height:500px;
     }  
   }
 
@@ -776,16 +777,19 @@ body {
     width: 800px;
     margin: auto;
 }  */
+.card-teachers {
+    text-align: center;
+}
 
 .card {
     margin:20px;
-    padding: 10px; 
+    padding: 30px; 
     background: RGBA(255, 255, 255, 0);
     border:none;
 }
-
-/* card-columns rozwala mobile lub desktop w kolażu */
-
+.card_art_classes{
+    margin-top: 130px;
+}
 .card-columns {
     width: 800px;
     margin: auto;
@@ -811,8 +815,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: revert;
-    margin-top: 12rem;
-    margin-bottom: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 
@@ -871,7 +875,8 @@ body {
     .newsletter .form {
         padding: 2rem;
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        margin-top: 23rem;
         background: RGBA(255, 255, 255, 0);
         border-radius: 0px;
     }
@@ -919,57 +924,14 @@ body {
 .footer {
     text-align: center;
 }
-/* 
+.footer_container {
+    background-color: white;
+}
+
 @media (max-width: 575px) {
-    .footer__container {
-        text-align: center;
-        width: 100%;
+    .footer {
+        padding:0px;
     }
-} */
-
-/* ciasteczka */
-/* .cookie {
-    position: fixed;
-    bottom: 0;
-    height: 150px;
-    width: 100%;
-    background: #fff;
-    text-align: center;
-    box-shadow: 0 -2px 12px 1px hsla(0, 0%, 80%, .8);
-    z-index: 15;
-    display: none;
-}
-
-.cookie.show {
-    display: block;
-}
-
-.cookie__wrapper {
-    padding: 35px 20px;
-}
-
-.cookie__text {
-    font-size: 20px;
-}
-
-.cookie__button {
-    width: 160px;
-}
-
-.cookie__button a {
-    color: white;
-}
-
-.cookie__x {
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    float: right;
-    margin: 15px 15px;
-}
-
-.cookie a {
-    text-decoration: none;
 }
 
 .sections-active{
