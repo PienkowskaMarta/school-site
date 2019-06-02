@@ -804,6 +804,8 @@ body {
     .card-columns{
         width:100%;
     }
+    /* .card_counsellors {
+        margin-bottom: 23rem; */
 }
 
 /*NEWSLETTER */
@@ -931,6 +933,9 @@ body {
 @media (max-width: 575px) {
     .footer {
         padding:0px;
+    }
+    .test{
+        margin-top: 50rem;
     }
 }
 
