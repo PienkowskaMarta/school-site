@@ -37,6 +37,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .parallax3 { 
+    /* The image used */
+    background-image: url("img/plush-design-studio-467757-unsplash.jpg");
+
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax4 { 
+    /* The image used */
+    background-color: mediumaquamarine;
+
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   @media (max-width: 575px) {
     .parallax {
@@ -477,8 +506,6 @@ body {
     margin: auto;
 }
 .row-offer {
-    /* margin-top: 250px;
-    margin-bottom: 250px; */
     margin-left: 40;
     margin-right: 40;
 } 
@@ -486,10 +513,7 @@ body {
     .card-columns{
         width:100%;
     }
-    /* .card_counsellors {
-        margin-bottom: 23rem; */
 }
-
 /*SPECIALIZATIONS */
 
 .newsletter {
@@ -499,8 +523,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: revert;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    /* margin-top: 6rem;
+    margin-bottom: 6rem; */
+    background-color: lightcyan;
 }
 
 
@@ -510,6 +535,7 @@ body {
     width: 60%;
     margin: 0 auto;
     background: RGBA(255, 255, 255, 0d);
+
 }
 
 @media (max-width: 575px) {
@@ -565,17 +591,19 @@ body {
 .footer {
     text-align: center;
 }
-.footer_container {
-    background-color: white;
+.footer_container{
+    color:white;
 }
-
+#contact {
+    background-image: url("img/black-1072366_1920.jpg");
+}
 @media (max-width: 575px) {
     .footer {
         padding:0px;
     }
-    .test{
+    /* .test{
         margin-top: 50rem;
-    }
+    } */
 }
 
 .sections-active{
