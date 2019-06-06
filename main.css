@@ -157,7 +157,7 @@ body {
 }
 
 .navbar-large li:active, .navbar-large li:hover {
-    border-bottom: 4px solid #C6596F;
+    /* border-bottom: 4px solid #C6596F; */
     transform: scale(1.05);
     -moz-transition: 0s all;
     -webkit-transition: 0s all;
@@ -167,7 +167,7 @@ body {
 }
 
 .navbar-small li:active, .navbar-small li:hover {
-    border-bottom: 4px solid #C6596F;
+    /* border-bottom: 4px solid #C6596F; */
     transform: scale(1.05);
     -moz-transition: 0s all;
     -webkit-transition: 0s all;
@@ -498,8 +498,9 @@ body {
 /* JUMBOTRON */
 .jumbotron {
     background: RGBA(255, 255, 255, 0);
-    margin-top: 12rem;
-    margin-bottom: 12rem;
+    height:600px;
+    background-image: url("img/joanna-kosinska-439234-unsplash.jpg");
+    padding-top:17rem;
 }
 .classes_specializations {
     background-color: lightcyan;
