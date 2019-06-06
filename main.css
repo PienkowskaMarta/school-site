@@ -11,7 +11,7 @@ body {
 
 .parallax { 
     /* The image used */
-    background-image: url("img/neha-deshmukh-9593-unsplash.jpg");
+    background-color:mediumaquamarine;
   
     /* Set a specific height */
     height: 500px; 
@@ -25,7 +25,7 @@ body {
 
   .parallax2 { 
     /* The image used */
-    background-image: url("img/keila-hotzel-227543-unsplash.jpg");
+    background-color:lightcyan;
 
   
     /* Set a specific height */
@@ -39,7 +39,7 @@ body {
   }
   .parallax3 { 
     /* The image used */
-    background-image: url("img/plush-design-studio-467757-unsplash.jpg");
+    background-image: url("img/tim-arterbury-126157-unsplash.jpg");
 
   
     /* Set a specific height */
@@ -51,7 +51,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+ 
   .parallax4 { 
     /* The image used */
     background-color: mediumaquamarine;
@@ -59,6 +59,21 @@ body {
   
     /* Set a specific height */
     height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax5 { 
+    /* The image used */
+    background-color: mediumaquamarine;
+
+  
+    /* Set a specific height */
+    height: 700px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -473,7 +488,7 @@ body {
     /* width: 200px; */
     height: 200px;
     margin: 50px auto;
-    padding-top: 75px;
+    /* padding-top: 75px; */
     background: #ccc;
     text-align: center;
     color: #FFF;
@@ -485,6 +500,13 @@ body {
     background: RGBA(255, 255, 255, 0);
     margin-top: 12rem;
     margin-bottom: 12rem;
+}
+.classes_specializations {
+    background-color: lightcyan;
+}
+.classes_upcoming {
+    background-color: lightcyan;
+    height:500px;
 }
 
 /* CLASSES */
