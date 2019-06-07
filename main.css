@@ -253,6 +253,8 @@ body {
     position: fixed;
     z-index: 100;
     width: 100%;
+    /* background-color: black; */
+    background-image: url("img/black-1072366_1920.jpg");
 }
 
 .navbar-hamburger ul {
@@ -262,7 +264,7 @@ body {
     display: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     width: 100%;
 }
@@ -278,7 +280,7 @@ body {
 }
 
 .navbar-hamburger a {
-    color:black;
+    color:white;
     display: block;
     text-transform: uppercase;
     text-decoration: none;
@@ -307,7 +309,8 @@ body {
 }
 
 .hamburger-box {
-    background-color: white;
+    /* background-color: black; */
+    background-image: url("img/black-1072366_1920.jpg");
     border-radius: 100px;
     width: 65px;
     height: 65px;
@@ -337,7 +340,8 @@ body {
     position: absolute;
     height: 8px;
     width: 100%;
-    background: #C6596F;
+    /* background: #C6596F; */
+    background: white;
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -396,7 +400,8 @@ body {
 }
 
 #li-hamburger-logo {
-    background-color: white;
+    /* background-color: black; */
+    background-image: url("img/black-1072366_1920.jpg");
 }
 
 #li-hamburger-logo img {
@@ -406,7 +411,7 @@ body {
 
 #li-hamburger-1,#li-hamburger-2,#li-hamburger-3,#li-hamburger-4,#li-hamburger-5,#li-hamburger-6 {
     /* background-image: url("img/hamburger-button-1.jpg"); */
-    background-color: white;
+    /* background-color: white; */
     padding: 0px;
     background-size: 100%;
 }
