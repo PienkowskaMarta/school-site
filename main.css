@@ -68,7 +68,6 @@ body {
   .parallax5 { 
     /* The image used */
     background-color: mediumaquamarine;
-
   
     /* Set a specific height */
     height: 500px; 
@@ -83,7 +82,19 @@ body {
   .parallax5 { 
     /* The image used */
     background-color: mediumaquamarine;
-
+  
+    /* Set a specific height */
+    height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax6 { 
+    /* The image used */
+    background-color: mediumaquamarine;
   
     /* Set a specific height */
     height: 700px; 
@@ -97,20 +108,25 @@ body {
 
   @media (max-width: 575px) {
     .parallax {
-        height:650px;
+        height:700px;
     }  
     .classes_specializations{
         height:650px;
     }
     .parallax2 {
-        height:650px;
+        height:700px;
     }  
     .parallax3 {
-        height:650px;
+        height:700px;
     }  
-    .parallax4 {
-        height:650px;
+    .parallax5 {
+        height:950px;
+
     }  
+    .parallax6 {
+        height:1550px;
+
+    } 
   }
 
 
@@ -573,6 +589,9 @@ body {
     .card-columns{
         width:100%;
     }
+    .classes_upcoming {
+        height: 650px;
+    }
 }
 /*SPECIALIZATIONS */
 
@@ -602,10 +621,9 @@ body {
     .newsletter .form {
         padding: 2rem;
         width: 100%;
-        /* margin: 0 auto; */
-        margin-top: 23rem;
         background: RGBA(255, 255, 255, 0);
         border-radius: 0px;
+        height:650px;
     }
 
     .newsletter {
