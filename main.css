@@ -51,8 +51,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
- 
   .parallax4 { 
+    /* The image used */
+    background-image: url("img/tim-arterbury-126157-unsplash.jpg");
+
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax5 { 
     /* The image used */
     background-color: mediumaquamarine;
 
@@ -84,7 +97,19 @@ body {
 
   @media (max-width: 575px) {
     .parallax {
-        height:500px;
+        height:650px;
+    }  
+    .classes_specializations{
+        height:650px;
+    }
+    .parallax2 {
+        height:650px;
+    }  
+    .parallax3 {
+        height:650px;
+    }  
+    .parallax4 {
+        height:650px;
     }  
   }
 
@@ -501,7 +526,19 @@ body {
     height:600px;
     background-image: url("img/joanna-kosinska-439234-unsplash.jpg");
     padding-top:17rem;
+    margin:0px;
 }
+
+@media (max-width: 575px) {
+    .jumbotron{
+        height:650px;
+        font:3rem;
+        padding-top:10rem;
+    }
+    
+}
+
+
 .classes_specializations {
     background-color: lightcyan;
 }
