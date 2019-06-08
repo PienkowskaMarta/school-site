@@ -56,8 +56,8 @@ body {
 
   .parallax2 { 
     /* The image used */
-    background-color:lightcyan;
-
+    /* background-color:lightcyan; */
+    background-image: url("img/moses-vega-1444971-unsplash.jpg");
   
     /* Set a specific height */
     height: 500px; 
@@ -70,8 +70,8 @@ body {
   }
   .parallax3 { 
     /* The image used */
-    background-image: url("img/tim-arterbury-126157-unsplash.jpg");
-
+    /* background-image: url("img/tim-arterbury-126157-unsplash.jpg"); */
+    background-color:lightcyan;
   
     /* Set a specific height */
     height: 500px; 
@@ -84,11 +84,10 @@ body {
   }
   .parallax4 { 
     /* The image used */
-    background-image: url("img/tim-arterbury-126157-unsplash.jpg");
-
-  
+    background-image: url("img/andre-hunter-168807-unsplash.jpg");
+    /* background-image: url("img/tim-arterbury-126157-unsplash.jpg"); */
     /* Set a specific height */
-    height: 500px; 
+    height: 550px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -98,7 +97,9 @@ body {
   }
   .parallax5 { 
     /* The image used */
-    background-color: mediumaquamarine;
+    /* background-color: mediumaquamarine; */
+    /* background-image: url("img/andre-hunter-168807-unsplash.jpg"); */
+    background-image: url("img/renee-fisher-1419903-unsplash.jpg");
   
     /* Set a specific height */
     height: 500px; 
@@ -148,6 +149,9 @@ body {
         height:700px;
     }  
     .parallax3 {
+        height:700px;
+    }  
+    .parallax4 {
         height:700px;
     }  
     .parallax5 {
@@ -577,8 +581,9 @@ body {
 .jumbotron {
     background: RGBA(255, 255, 255, 0);
     height:600px;
-    background-image: url("img/joanna-kosinska-439234-unsplash.jpg");
-    padding-top:17rem;
+    background-image: url("img/green-1738220_1920.jpg");
+    background-size: cover;
+    padding-top:14rem;
     margin:0px;
 }
 
@@ -592,11 +597,11 @@ body {
 }
 
 
-.classes_specializations {
+/* .classes_specializations {
     background-color: lightcyan;
-}
+} */
 .classes_upcoming {
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     height:500px;
 }
 
