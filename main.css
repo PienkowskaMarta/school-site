@@ -28,6 +28,9 @@
 .cursor:nth-child(2){ background-color: #fff; }
 
 /* BODY */
+html, body {
+overflow-x: hidden;
+}
 
 body {
     margin: 0;
