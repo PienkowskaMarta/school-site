@@ -86,8 +86,8 @@ body {
   }
   .parallax4 { 
     /* The image used */
-    background-image: url("img/andre-hunter-168807-unsplash.jpg");
-    /* background-image: url("img/tim-arterbury-126157-unsplash.jpg"); */
+    /* background-image: url("img/andre-hunter-168807-unsplash.jpg"); */
+    background-image: url("img/plush-design-studio-467757-unsplash.jpg");
     /* Set a specific height */
     height: 550px; 
   
@@ -724,6 +724,8 @@ body {
     .footer {
         padding:0px;
     }
+    .footer_container{
+        font-family: 'Gloria Hallelujah', cursive;
     /* .test{
         margin-top: 50rem;
     } */
